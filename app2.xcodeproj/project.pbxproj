@@ -15,6 +15,13 @@
 		A1B45FA52455C2C600BEB66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B45FA32455C2C600BEB66B /* LaunchScreen.storyboard */; };
 		A1B45FB02455C2C600BEB66B /* app2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45FAF2455C2C600BEB66B /* app2Tests.swift */; };
 		A1B45FBB2455C2C700BEB66B /* app2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45FBA2455C2C700BEB66B /* app2UITests.swift */; };
+		A1B45FC92455D1E500BEB66B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45FC82455D1E500BEB66B /* LoginViewController.swift */; };
+		A1B45FCB2455D6AD00BEB66B /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45FCA2455D6AD00BEB66B /* Details.swift */; };
+		A1B45FCF2458611A00BEB66B /* FuncController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45FCE2458611A00BEB66B /* FuncController.swift */; };
+		A1B45FD1245977C800BEB66B /* PersonalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45FD0245977C800BEB66B /* PersonalPageViewController.swift */; };
+		A1B45FD3245AFC8200BEB66B /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45FD2245AFC8200BEB66B /* ProfileTableViewController.swift */; };
+		A1B45FD5245AFD0D00BEB66B /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45FD4245AFD0D00BEB66B /* ProfileTableViewCell.swift */; };
+		A1B45FD7245B0CAF00BEB66B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B45FD6245B0CAF00BEB66B /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		A1B45FB62455C2C700BEB66B /* app2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B45FBA2455C2C700BEB66B /* app2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app2UITests.swift; sourceTree = "<group>"; };
 		A1B45FBC2455C2C700BEB66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B45FC82455D1E500BEB66B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A1B45FCA2455D6AD00BEB66B /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		A1B45FCE2458611A00BEB66B /* FuncController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncController.swift; sourceTree = "<group>"; };
+		A1B45FD0245977C800BEB66B /* PersonalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageViewController.swift; sourceTree = "<group>"; };
+		A1B45FD2245AFC8200BEB66B /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		A1B45FD4245AFD0D00BEB66B /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		A1B45FD6245B0CAF00BEB66B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +117,16 @@
 				A1B45F9A2455C2C300BEB66B /* SceneDelegate.swift */,
 				A1B45F9C2455C2C300BEB66B /* ViewController.swift */,
 				A1B45F9E2455C2C300BEB66B /* Main.storyboard */,
+				A1B45FD6245B0CAF00BEB66B /* SignupViewController.swift */,
+				A1B45FD2245AFC8200BEB66B /* ProfileTableViewController.swift */,
+				A1B45FD4245AFD0D00BEB66B /* ProfileTableViewCell.swift */,
+				A1B45FC82455D1E500BEB66B /* LoginViewController.swift */,
+				A1B45FD0245977C800BEB66B /* PersonalPageViewController.swift */,
+				A1B45FCA2455D6AD00BEB66B /* Details.swift */,
 				A1B45FA12455C2C600BEB66B /* Assets.xcassets */,
 				A1B45FA32455C2C600BEB66B /* LaunchScreen.storyboard */,
 				A1B45FA62455C2C600BEB66B /* Info.plist */,
+				A1B45FCE2458611A00BEB66B /* FuncController.swift */,
 			);
 			path = app2;
 			sourceTree = "<group>";
@@ -259,9 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B45FC92455D1E500BEB66B /* LoginViewController.swift in Sources */,
+				A1B45FCB2455D6AD00BEB66B /* Details.swift in Sources */,
+				A1B45FD7245B0CAF00BEB66B /* SignupViewController.swift in Sources */,
 				A1B45F9D2455C2C300BEB66B /* ViewController.swift in Sources */,
+				A1B45FD5245AFD0D00BEB66B /* ProfileTableViewCell.swift in Sources */,
 				A1B45F992455C2C300BEB66B /* AppDelegate.swift in Sources */,
 				A1B45F9B2455C2C300BEB66B /* SceneDelegate.swift in Sources */,
+				A1B45FD1245977C800BEB66B /* PersonalPageViewController.swift in Sources */,
+				A1B45FD3245AFC8200BEB66B /* ProfileTableViewController.swift in Sources */,
+				A1B45FCF2458611A00BEB66B /* FuncController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
